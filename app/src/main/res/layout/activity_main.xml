@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/firstStringEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Первая строка" />
+
+    <EditText
+        android:id="@+id/secondStringEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Вторая строка" />
+
+    <Button
+        android:id="@+id/concatButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Объединить строки" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Результат: "
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
